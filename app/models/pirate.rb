@@ -13,5 +13,9 @@ class Pirate
   def self.all
     @@all
   end
+
+  def self.clear
+    @@all.delete
+  end
   
 end
