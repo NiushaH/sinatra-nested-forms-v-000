@@ -8,6 +8,10 @@ module FormsLab
       "Welcome to the Nested Forms Lab!"
     end
     
+    get '/new' do
+      # "Welcome to the Nested Forms Lab!"
+    end
+
     post '/pirates' do
       
     end    
